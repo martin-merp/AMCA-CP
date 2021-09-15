@@ -38,7 +38,7 @@
 
                                     <input type="button" class="btn btn-success float-right mr-2" data-toggle="modal" data-target="#registro" value="Editar" 
                                     
-                                    ="
+                                    onclick="
                                         document.getElementById('especie').value='{{$animal->especie}}';
                                         document.getElementById('raza').value='{{$animal->raza}}';
                                         document.getElementById('alimentacion').value='{{$animal->alimentacion}}';
